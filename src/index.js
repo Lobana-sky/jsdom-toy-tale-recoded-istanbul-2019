@@ -87,7 +87,7 @@ function like(){
        "image": [image1],
        "likes": 0
       } )
-    } ); //end function
+    } ) //end function
     ); //end event listener
   }//end for
   
