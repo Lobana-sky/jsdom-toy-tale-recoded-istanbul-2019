@@ -68,7 +68,4 @@ let image1=x[1].value;
        "likes": 0
       } )
     } )
-
-}
-
-);
+});
