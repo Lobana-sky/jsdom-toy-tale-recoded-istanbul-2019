@@ -56,7 +56,7 @@ let x=document.getElementsByClassName('input-text');
 let name=x[0].value;
 let image=x[1].value;
 
- fetch( 'http://localhost:3000/users', {
+ fetch( 'http://localhost:3000/toys', {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
