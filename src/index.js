@@ -52,7 +52,8 @@ function addToys() {
 
 let bBtn=document.getElementsById('new-toy-btn');
 bBtn.addEventListener('click',function(){
-let x=document.getElementsByClassName('')
+let x=document.getElementsByClassName('input-text');
+
 }
 
 );
