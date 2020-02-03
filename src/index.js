@@ -53,6 +53,8 @@ function addToys() {
 let bBtn=document.getElementsById('new-toy-btn');
 bBtn.addEventListener('click',function(){
 let x=document.getElementsByClassName('input-text');
+let name=x[0].value;
+let toyNAme=x[1].value;
 
 }
 
