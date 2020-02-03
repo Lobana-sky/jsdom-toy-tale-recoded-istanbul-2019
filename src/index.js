@@ -56,6 +56,7 @@ let x=document.getElementsByClassName('input-text');
 let name=x[0].value;
 let image=x[1].value;
 
+
 }
 
 );
