@@ -76,10 +76,18 @@ function like(){
   let toyss=document.getElementsByClassName('like-btn');
   for(let x of toyss)
   {
-    x.addEventListener('click',function(){
-      
-      
-    } //end function
+    x.addEventListener('click', fetch( 'http://localhost:3000/toys', {
+      method: "POST", //post
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify( {
+       "name": [name1],
+       "image": [image1],
+       "likes": 0
+      } )
+    } ); //end function
     ); //end event listener
   }//end for
   
