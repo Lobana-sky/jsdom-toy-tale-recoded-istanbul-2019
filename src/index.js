@@ -56,6 +56,17 @@ let x=document.getElementsByClassName('input-text');
 let name=x[0].value;
 let image=x[1].value;
 
+ fetch( 'http://localhost:3000/users', {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify( {
+        name,
+        email
+      } )
+    } )
 
 }
 
