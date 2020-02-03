@@ -57,7 +57,7 @@ let name1=x[0].value;
 let image1=x[1].value;
 
  fetch( 'http://localhost:3000/toys', {
-      method: "POST",
+      method: "POST", //post
       headers: {
         "Content-Type": "application/json",
         "Accept": "application/json"
