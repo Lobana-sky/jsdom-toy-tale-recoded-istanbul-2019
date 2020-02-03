@@ -53,8 +53,8 @@ function addToys() {
 let bBtn=document.getElementsById('new-toy-btn');
 bBtn.addEventListener('click',function(){
 let x=document.getElementsByClassName('input-text');
-let name=x[0].value;
-let image=x[1].value;
+let name1=x[0].value;
+let image1=x[1].value;
 
  fetch( 'http://localhost:3000/toys', {
       method: "POST",
@@ -63,9 +63,9 @@ let image=x[1].value;
         "Accept": "application/json"
       },
       body: JSON.stringify( {
-       "name": "Jessie",
-  "image": "https://vignette.wikia.nocookie.net/p__/images/8/88/Jessie_Toy_Story_3.png/revision/latest?cb=20161023024601&path-prefix=protagonist",
-  "likes": 0
+       "name": [name1],
+       "image": [image1],
+       "likes": 0
       } )
     } )
 
