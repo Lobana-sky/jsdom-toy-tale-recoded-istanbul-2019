@@ -73,7 +73,7 @@ let image1=x[1].value;
 });
 //third
 function like(){
-  let toys=document.getElementsByClassName()
+  let toyss=document.getElementsByClassName('like-btn');
   for(let x of toyss)
   {
     
