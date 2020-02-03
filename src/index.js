@@ -72,3 +72,12 @@ let image1=x[1].value;
     } );
 });
 //third
+function like(){
+  
+  for(let x of toyss)
+  {
+    
+  }
+  
+}
+
