@@ -76,7 +76,9 @@ function like(){
   let toyss=document.getElementsByClassName('like-btn');
   for(let x of toyss)
   {
-    
+    x.addEventListener('click',function(){
+      
+    });
   }
   
 }
