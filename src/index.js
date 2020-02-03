@@ -76,7 +76,7 @@ function like(){
   let toyss=document.getElementsByClassName('like-btn');
   for(let x of toyss)
   {
-    x.addEventListener('click', fetch( `http://localhost:3000/toys/${}`, {
+    x.addEventListener('click', fetch( `http://localhost:3000/toys/${toy.Id}`, {
       method: "POST", //post
       headers: {
         "Content-Type": "application/json",
@@ -84,7 +84,7 @@ function like(){
       },
       body: JSON.stringify( {
        
-       "likes": 0
+       "likes": [likes++]
       } )
     } ) //end fetch function
     ); //end event listener
