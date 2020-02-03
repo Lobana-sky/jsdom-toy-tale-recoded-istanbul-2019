@@ -13,6 +13,8 @@ document.addEventListener("DOMContentLoaded", ()=>{
     }
   })
 })
+
+//first
 document.addEventListener("DOMContentLoaded", addToys);
 
 function addToys() {
@@ -49,7 +51,7 @@ function addToys() {
     }
     } )
 }
-
+//second
 let bBtn=document.getElementsById('new-toy-btn');
 bBtn.addEventListener('click',function(){
 let x=document.getElementsByClassName('input-text');
