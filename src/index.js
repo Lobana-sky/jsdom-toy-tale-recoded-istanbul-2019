@@ -79,7 +79,8 @@ function like(){
     x.addEventListener('click',function(){
       
       
-    });//end function //end event listener
+    } //end function
+    ); //end event listener
   }//end for
   
 }//end like function
